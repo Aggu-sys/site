@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+
+    background-color: rgb(0, 136, 208);
+    /*cor temporária*/
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5px 0;
+    border-bottom: 0.4px solid #ffffff;
+}
+
+.menu-imagem {
+    height: 72px;
+}
+
+.menu-opcoes {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-opcao1 {
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
