@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+header {
+    background-color: rgb(0, 136, 208);
+    /*cor temporária*/
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    border-bottom: 0.4px solid #ffffff;
+}
+
+.menu-imagem {
+    height: 72px;
+}
+
+.menu-opcoes {
+    display: flex;
+}
+
+.menu-opcao1 {
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+
+    padding: 24px;
+}
+
+.menu-opcao1:hover {
+    background-color: rgb(0, 115, 177);
+}
+
+a:hover {
+    text-decoration:underline 1.25px;
+}
+
+main {
+    background-image: url(/Images/fundo-provisório.jpg);
+    /*Imagem provisória, trocar pela frente da empresa*/
+    background-attachment: fixed;
+
+}
+
+.principal-secao1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-secao1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-secao1-titulo {
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.principal-secao1-subtitulo {
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.principal-secao1-botao {
+    background-color: #25d366;
+
+    width: 185px;
+    height: 67px;
+
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: xx-small;
+}
