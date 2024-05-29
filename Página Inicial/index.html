@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGGU-sys | Página Inicial</title>
-    <link rel="shortcut icon" href="/images/AGGU-sys-icon.png">    
+    <link rel="shortcut icon" href="/images/AGGU-sys-simbolo.png">    
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="pagina-inicial">
     <header class="menu">
-        <img src="/Images/AGGU-sys-logo.png" alt="Logo da empresa AGGU-sys, com o fundo azul e letras brancas" class="menu-imagem">
+        <a href="index.html"><img src="/Images/AGGU-sys-logo.png" alt="Logo da empresa AGGU-sys, com o fundo azul e letras brancas" class="menu-imagem"></a>
         <nav class="menu-opcoes">
-            <a class="menu-opcao1" href="produtos.html">Produtos</a></li>
-            <a class="menu-opcao1" href="servicos.html">Serviços</a></li>
-            <a class="menu-opcao1" href="contato.html">Contatos</a></li>
-            <a class="menu-opcao1" href="sobre.html">Sobre Nós</a></li>
+            <a class="menu-opcao1" id="opcao1" href="/Projetos/projetos.html">Projetos</a>
+            <a class="menu-opcao1" id="opcao2" href="/Contatos/contato.html">Contatos</a>
+            <a class="menu-opcao1" id="opcao3" href="/Sobre/sobre.html">Sobre Nós</a>
         </nav>
     </header>
 
@@ -22,14 +21,14 @@
         <section class="principal-secao1">
             <div class="principal-secao1-texto">
                 <h1 class="principal-secao1-titulo">
-                    AGGU<strong>-sys</strong><br>
+                    Bem Vindo à <br> AGGU-sys
                     <p class="titulo">projetos eletrônicos</p>
                 </h1>
                 <h2 class="principal-secao1-subtitulo">
-                    Uma empresa que desenvolve equipamentos para sua empresa
+                    Uma desenvolvedora de equipamentos eletrônicos
                     <!--Frase a ser reformulada-->
                 </h2>
-                <button class="principal-secao1-botao"><a class="botao" href="https://api.whatsapp.com/send/?phone=5517981371058&text&type=phone_number&app_absent=0">Nos adicione no WhatsApp</a></button>
+                <button class="principal-secao1-botao"><a class="botao" href="https://api.whatsapp.com/send/?phone=5517981371058&text&type=phone_number&app_absent=0" target="_blank"><ion-icon class="icon" name="logo-whatsapp"></ion-icon></a></button>
             </div>
             <img class="principal-secao1-imagem" src="/Images/AGGU-sys-icon.png" alt="Logo em PNG da AGGU-sys">
             <!--Trocar por uma imagem que represente os equipamentos-->
@@ -44,9 +43,13 @@
 
     </main>
 
-    <footer>
-
+    <footer class="rodape">
+        <img class="rodape-imagem" src="/Images/AGGU-sys-simbolo.png" alt="Símbolo AGGU-sys em branco e amarelo">
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
 </body>
 </html>
