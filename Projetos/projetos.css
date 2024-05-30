@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +32,7 @@
 
 .menu-opcoes {
     display: flex;
-    gap: 15px;
+    gap: 90px;
 }
 
 .menu-opcao1 {
@@ -53,7 +55,7 @@
 }
 
 .principal{
-    background-color: #66B3FF;
+    background-color: #d9dab8;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -70,7 +72,7 @@
     font-family: calibri, sans-serif;
     font-weight: 400;
     font-size: 64px;
-    color: rgb(255, 242, 18);
+    color: black;
 }
 
 .principal-secao1-conteudo{
