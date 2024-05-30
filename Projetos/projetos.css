@@ -51,3 +51,74 @@
     transform: scale(1.29);
     background-color: rgb(0, 120, 208);
 }
+
+.principal{
+    background-color: #66B3FF;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-secao1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.principal-secao1-titulo{
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(255, 242, 18);
+}
+
+.principal-secao1-conteudo{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+}
+
+.principal-secao1-paragrafo{
+    font-family: calibri, sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    
+}
+
+.principal-secao1-imagem{
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.principal-secao2{
+    margin-top: 30px;
+    
+}
+.principal-secao2-subtitulo{
+    padding-top: 48px;
+    border-top: 0.4px solid #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.principal-secao2-subtitulo{
+    font-family: calibri, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(255, 242, 18);
+}
+
+.principal-secao2-conteudo1{
+    background-color: #0E0A73;
+}
+
+.principal-conteudo1-imagem{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.principal-conteudo1-texto{
+    color: #ffffff;
+}
