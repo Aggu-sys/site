@@ -142,6 +142,8 @@
 .botao {
     font-size: 30px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
 .principal-secao2 {
