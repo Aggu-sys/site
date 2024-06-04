@@ -53,10 +53,9 @@
 }
 
 .principal{
-
     background: #f0f0f0;
 
-    padding: 20px;
+    padding: 0 10% ;
 
     font-family: calibri, sans-serif;
 }
@@ -77,7 +76,9 @@
 }
 
 .principal-secao1-paragrafo{
-    padding: 0 0 10px 20px;
+    margin-bottom: 10px;
+
+    text-indent: 20px;
     
     font-size: 20px;
     color: #3f3f3f;
@@ -87,149 +88,144 @@
     display: block;
     margin: auto;
 
-    height: 365px;
-    
+    width: 100%;    
     border-radius: 10px;
 
     margin-bottom: 20px;
 }
 
-/*.principal-secao2{
-    margin-top: 30px;
+.principal-secao2{
+    margin-top: 15px;
     
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .principal-secao2-subtitulo{
-    font-family: calibri, sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-    color: rgb(255, 242, 18);
-    padding-top: 48px;
-    border-top: 0.4px solid #ffffff;
-    display: flex;
-    justify-content: center;
+    text-indent: 10px;
+    margin-bottom: 10px;
+
+    font-size: 25px;
+    font-weight: 700;
+    color: #2c2c2c;
 }
 
 .principal-secao2-conteudo1{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: center;
+    gap: 5px;
 }
 
 .principal-conteudo1-imagem{
     border-radius: 10px;
-    margin-top: 20px;
-    height: 300px;
+    width: 25%;
 }
 
 .principal-conteudo1-texto{
-    color: #ffffff;
-    font-family: calibri, sans-serif;
-    font-size: 35px;
-    margin: 20px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: #3f3f3f;
 }
 
 .principal-secao2-conteudo2{
-    border-top: 0.4px solid #ffffff;
-    margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
 }
 
 .principal-conteudo2-imagem{
-    margin-top: 20px;
     border-radius: 10px;
-    height: 300px;
+    width: 25%;
 }
 
 .principal-conteudo2-texto{
-    color: #ffffff;
-    font-family: calibri, sans-serif;
-    font-size: 35px;
-    margin: 20px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: #3f3f3f;
 }
 
 .principal-secao2-conteudo3{
-    border-top: 0.4px solid #ffffff;
-    margin-top: 50px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: center;
+    gap: 5px;
 }
 
 .principal-conteudo3-imagem{
-    margin-top: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 25%;
 }
 
 .principal-conteudo3-texto{
-    color: #ffffff;
-    font-family: calibri, sans-serif;
-    font-size: 35px;
-    margin: 20px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: #3f3f3f;
 }
 
 .principal-secao2-conteudo4{
-    border-top: 0.4px solid #ffffff;
-    margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
 }
 
 .principal-conteudo4-imagem{
-    margin-top: 20px;
     border-radius: 10px;
-    height: 300px;
+    width: 25%;
 }
 
 .principal-conteudo4-texto{
-    color: #ffffff;
-    font-family: calibri, sans-serif;
-    font-size: 35px;
-    margin: 20px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: #3f3f3f;
 }
 
 .principal-secao2-conteudo5{
-    border-top: 0.4px solid #ffffff;
-    margin-top: 50px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: center;
+    gap: 5px;
 }
 
 .principal-conteudo5-imagem{
-    margin-top: 20px;
     border-radius: 10px;
-    height: 300px;
+    width: 25%;
 }
 
 .principal-conteudo5-texto{
-    color: #ffffff;
-    font-family: calibri, sans-serif;
-    font-size: 35px;
-    margin: 20px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: #3f3f3f;
 }
 
 .principal-secao2-conteudo6{
-    border-top: 0.4px solid #ffffff;
-    margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+
+    margin-bottom: 20px;
 }
 
 .principal-conteudo6-imagem{
-    margin-top: 20px;
     border-radius: 10px;
-    height: 400px;
+    width: 25%;
 }
 
 .principal-conteudo6-texto{
-    color: #ffffff;
-    font-family: calibri, sans-serif;
-    font-size: 35px;
-    margin: 20px;
-}*/
+    text-indent: 20px;
+    font-size: 20px;
+    color: #3f3f3f;
+}
 
 .rodape {
     padding: 20px;
