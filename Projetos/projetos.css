@@ -240,3 +240,132 @@
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 650px){
+    .menu-opcao1:hover {
+        transform: scale(1.1);
+        background-color: rgb(0, 120, 208);
+    }
+
+    .menu-opcoes {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .menu-opcao1 {
+        font-size: 15px;
+    }
+    .menu-imagem {
+        height: 60px;
+    }
+    
+    .principal-secao1-titulo{
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .principal-secao1-imagem{
+        height: 250px;
+        width: 100%;
+    }
+
+    .principal-secao2-subtitulo{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .principal-secao2-conteudo1{
+        flex-direction: column;
+    }
+
+    .principal-conteudo1-imagem{
+        width: 70%;
+    }
+
+    .principal-conteudo1-texto{
+        text-indent: 0px;
+    }
+
+    .principal-secao2-conteudo2{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        border-top: 1px solid gray;
+        padding: 10px;
+    }
+
+    .principal-conteudo2-imagem{
+        width: 70%;
+        
+    }
+
+    .principal-conteudo2-texto{
+        text-indent: 0px;
+    }
+
+    .principal-secao2-conteudo3{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        border-top: 1px solid gray;
+        padding: 10px;
+    }
+
+    .principal-conteudo3-imagem{
+        width: 70%;
+    }
+
+    .principal-conteudo3-texto{
+        text-indent: 0px;
+    }
+    .principal-secao2-conteudo4{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        border-top: 1px solid gray;
+        padding: 10px;
+    }
+
+    .principal-conteudo4-imagem{
+        width: 70%;
+        height: 200px;
+    }
+
+    .principal-conteudo4-texto{
+        text-indent: 0px;
+    }
+
+    .principal-secao2-conteudo5{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        border-top: 1px solid gray;
+        padding: 10px;
+    }
+
+    .principal-conteudo5-imagem{
+        width: 70%;
+        
+    }
+
+    .principal-conteudo5-texto{
+        text-indent: 0px;
+    }
+
+    .principal-secao2-conteudo6{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        border-top: 1px solid gray;
+        padding: 10px;
+    }
+
+    .principal-conteudo6-imagem{
+        width: 70%;
+        
+    }
+
+    .principal-conteudo6-texto{
+        text-indent: 0px;
+    }
+}
