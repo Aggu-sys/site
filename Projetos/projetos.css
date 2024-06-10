@@ -122,6 +122,7 @@
 .principal-conteudo1-imagem{
     border-radius: 10px;
     width: 25%;
+    margin-top: 20px;
 }
 
 .principal-conteudo1-texto{
@@ -136,11 +137,14 @@
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+
+    border-top: 2px solid #ffffff;
 }
 
 .principal-conteudo2-imagem{
     border-radius: 10px;
     width: 25%;
+    margin-top: 20px;
 }
 
 .principal-conteudo2-texto{
@@ -155,11 +159,14 @@
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+
+    border-top: 2px solid #ffffff;
 }
 
 .principal-conteudo3-imagem{
     border-radius: 10px;
     width: 25%;
+    margin-top: 20px;
 }
 
 .principal-conteudo3-texto{
@@ -174,11 +181,14 @@
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+
+    border-top: 2px solid #ffffff;
 }
 
 .principal-conteudo4-imagem{
     border-radius: 10px;
     width: 25%;
+    margin-top: 20px;
 }
 
 .principal-conteudo4-texto{
@@ -193,11 +203,16 @@
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+
+    border-top: 2px solid #ffffff;
+
+    
 }
 
 .principal-conteudo5-imagem{
     border-radius: 10px;
     width: 25%;
+    margin-top: 20px;
 }
 
 .principal-conteudo5-texto{
@@ -213,12 +228,15 @@
     align-items: center;
     gap: 5px;
 
+    border-top: 2px solid #ffffff;
+
     margin-bottom: 20px;
 }
 
 .principal-conteudo6-imagem{
     border-radius: 10px;
     width: 25%;
+    margin-top: 20px;
 }
 
 .principal-conteudo6-texto{
@@ -290,7 +308,6 @@
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-        border-top: 1px solid gray;
         padding: 10px;
     }
 
@@ -307,7 +324,6 @@
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-        border-top: 1px solid gray;
         padding: 10px;
     }
 
@@ -322,7 +338,6 @@
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-        border-top: 1px solid gray;
         padding: 10px;
     }
 
@@ -339,7 +354,6 @@
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-        border-top: 1px solid gray;
         padding: 10px;
     }
 
@@ -356,7 +370,6 @@
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-        border-top: 1px solid gray;
         padding: 10px;
     }
 
