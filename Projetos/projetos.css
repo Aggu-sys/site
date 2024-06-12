@@ -53,7 +53,8 @@
 }
 
 .principal{
-    background: #f0f0f0;
+    background-image: url(/Images/fundo-página-inicial.jpg);
+    background-attachment: fixed;
 
     padding: 0 10% ;
 
@@ -72,7 +73,7 @@
 
     font-size: 35px;
     font-weight: 700;
-    color: #2c2c2c;
+    color:#eeeeee;
 }
 
 .principal-secao1-paragrafo{
@@ -81,7 +82,7 @@
     text-indent: 20px;
     
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .principal-secao1-imagem{
@@ -108,7 +109,7 @@
 
     font-size: 25px;
     font-weight: 700;
-    color: #2c2c2c;
+    color:#eeeeee;
 }
 
 .principal-secao2-conteudo1{
@@ -122,13 +123,12 @@
 .principal-conteudo1-imagem{
     border-radius: 10px;
     width: 25%;
-    margin-top: 20px;
 }
 
 .principal-conteudo1-texto{
     text-indent: 20px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .principal-secao2-conteudo2{
@@ -136,7 +136,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
+
+    padding-top: 20px;
 
     border-top: 2px solid #ffffff;
 }
@@ -144,13 +146,12 @@
 .principal-conteudo2-imagem{
     border-radius: 10px;
     width: 25%;
-    margin-top: 20px;
 }
 
 .principal-conteudo2-texto{
     text-indent: 20px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .principal-secao2-conteudo3{
@@ -158,7 +159,9 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
+
+    padding-top: 20px;
 
     border-top: 2px solid #ffffff;
 }
@@ -166,13 +169,12 @@
 .principal-conteudo3-imagem{
     border-radius: 10px;
     width: 25%;
-    margin-top: 20px;
 }
 
 .principal-conteudo3-texto{
     text-indent: 20px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .principal-secao2-conteudo4{
@@ -180,7 +182,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
+
+    padding-top: 20px;
 
     border-top: 2px solid #ffffff;
 }
@@ -188,13 +192,12 @@
 .principal-conteudo4-imagem{
     border-radius: 10px;
     width: 25%;
-    margin-top: 20px;
 }
 
 .principal-conteudo4-texto{
     text-indent: 20px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .principal-secao2-conteudo5{
@@ -202,7 +205,9 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
+
+    padding-top: 20px;
 
     border-top: 2px solid #ffffff;
 
@@ -212,13 +217,12 @@
 .principal-conteudo5-imagem{
     border-radius: 10px;
     width: 25%;
-    margin-top: 20px;
 }
 
 .principal-conteudo5-texto{
     text-indent: 20px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .principal-secao2-conteudo6{
@@ -226,7 +230,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
+
+    padding-top: 20px;
 
     border-top: 2px solid #ffffff;
 
@@ -236,13 +242,12 @@
 .principal-conteudo6-imagem{
     border-radius: 10px;
     width: 25%;
-    margin-top: 20px;
 }
 
 .principal-conteudo6-texto{
     text-indent: 20px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #dddddd;
 }
 
 .rodape {
