@@ -56,9 +56,10 @@
     background-image: url(/Images/fundo-página-inicial.jpg);
     background-attachment: fixed;
 
-    padding: 0 10% ;
+    padding: 0 25% ;
 
     font-family: calibri, sans-serif;
+    text-align: justify;
 }
 
 .principal-secao1 {
@@ -70,6 +71,7 @@
     justify-content: center;
 
     margin-bottom: 15px;
+    padding-top: 20px;
 
     font-size: 35px;
     font-weight: 700;
@@ -158,8 +160,13 @@
     .menu-opcao1 {
         font-size: 15px;
     }
+
     .menu-imagem {
         height: 60px;
+    }
+    
+    .principal{
+        padding: 0 15%;
     }
     
     .principal-secao1-titulo{

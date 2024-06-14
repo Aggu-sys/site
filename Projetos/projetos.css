@@ -59,9 +59,11 @@
     padding: 0 10% ;
 
     font-family: calibri, sans-serif;
+    text-align: justify;
 }
 
 .principal-secao1 {
+    padding-top: 20px;
     border-bottom: 2px solid #ffffff;
 }
 
