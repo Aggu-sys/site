@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: space-around;
 
-    border-bottom: 0.4px solid #ffffff;
+    border-bottom: 0.4px solid #ffffff;  
 }
 
 .menu-imagem {
@@ -60,6 +60,8 @@
 
     font-family: calibri, sans-serif;
     text-align: justify;
+
+    min-height: 100vh;
 }
 
 .principal-secao1 {
@@ -166,7 +168,8 @@
     }
     
     .principal{
-        padding: 0 15%;
+        padding: 0 10%;
+        
     }
     
     .principal-secao1-titulo{
