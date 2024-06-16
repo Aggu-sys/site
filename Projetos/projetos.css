@@ -53,7 +53,7 @@
 }
 
 .principal{
-    background-image: url(/Images/fundo-página-inicial.jpg);
+    background-image: url(../Images/fundo-página-inicial.jpg);
     background-attachment: fixed;
 
     padding: 0 10% ;
